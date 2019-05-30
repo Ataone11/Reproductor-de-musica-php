@@ -15,7 +15,7 @@ $(document).ready(function()
        song=e.target.files;
        if(song)
        {
-          CantidadArchivos = song.length;
+      CantidadArchivos = song.length;
           if(CantidadArchivos>10)
           {
             alert("Error. Has seleccionado mas de 10 canciones");
